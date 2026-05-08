@@ -98,7 +98,7 @@ def main():
     camino = a_estrella(laberinto, inicio, meta)
     
     if camino:
-        print("Ruta encontrada")
+        print(f"Ruta encontrada: {camino}")
         print(f"Costo total: {len(camino) - 1}")
         print("Cuadrícula final con la ruta marcada mediante *:")
         laberinto.imprimir(camino, inicio, meta)
